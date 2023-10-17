@@ -1,0 +1,42 @@
+body {
+    background-color:skyblue;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    text-align: center;
+    
+}
+
+nav a {
+    color: white;
+    transition: color 0.5s ease-in-out;
+
+    font-size: 1.3em;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+
+nav ul {
+    list-style: none;
+    padding-left: 0px;
+    background-color:rgb(106, 106, 106);
+    padding: 10px 0px 10px 0px;
+    border-radius: 16px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+
+li.active a {
+    color:#E3A55E;
+}
+
+li.a:hover {
+    background-color: #E3A55E;
+}

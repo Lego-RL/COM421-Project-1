@@ -1,9 +1,4 @@
-body {
-    background-color:skyblue;
-    width: 1080px;
-    margin-left: auto;
-    margin-right: auto;
-}
+/* NAVBAR STYLES */
 
 nav {
     text-align: center;
@@ -39,4 +34,17 @@ li.active a {
 
 li.a:hover {
     background-color: #E3A55E;
+}
+
+/* PAGE BODY / CONTENT STYLES */
+
+body {
+    background-color:skyblue;
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-size: 1.5em;
 }

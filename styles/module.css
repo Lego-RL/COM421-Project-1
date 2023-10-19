@@ -5,26 +5,30 @@ nav {
     
 }
 
-nav a {
+nav > a {
     color: white;
-    transition: color 0.5s ease-in-out;
-
-    font-size: 1.3em;
-    text-decoration: none;
     padding: .5em 1em;
 }
 
 
-nav ul {
+nav > ul, nav > ul > ul {
     list-style: none;
     padding-left: 0px;
+    color: rgb(230, 230, 230);
     background-color:rgb(106, 106, 106);
     padding: 10px 0px 10px 0px;
     border-radius: 16px;
 }
 
-nav ul li {
-    display: inline;
+nav > ul > li {
+    /* display: inline; */
+    color: rgb(230, 230, 230);
+    
+    font-weight: bold;
+}
+
+nav > ul > li > a {
+    text-decoration: underline;
 }
 
 
@@ -45,22 +49,49 @@ body {
     margin-right: auto;
 }
 
+h1 {
+    font-size: 2.2em;
+}
+
+h2 {
+    font-size: 1.8em;
+    padding: 0.5em 0 0.5em 0;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.4em;
+}
+
+
+
 p {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 ul > li {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 ol > li {
-    font-size: 1.5em;
+    font-size: 1.3em;
+}
+
+li > h4 {
+    font-size: 1.1em;
+}
+
+figure {
+    padding: 2em 2em 2em 2em;
 }
 
 figcaption {
     font-size: 1.5em;
 }
 
-/* figure {
-    margin: auto;
-} */
+li > a {
+    color: #E3A55E;
+}

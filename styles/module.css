@@ -1,43 +1,23 @@
-/* NAVBAR STYLES */
-
-nav {
-    text-align: center;
-    
+body {
+    font-family: "Roboto", sans-serif;
 }
 
-nav > a {
-    color: white;
-    padding: .5em 1em;
-}
+/* PAGE NAV STYLES */
 
-
-nav > ul, nav > ul > ul {
+.in-page-nav > ul, .in-page-nav > ul > ul {
     list-style: none;
     padding-left: 0px;
-    color: rgb(230, 230, 230);
     background-color:rgb(106, 106, 106);
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
     border-radius: 16px;
-}
 
-nav > ul > li {
-    /* display: inline; */
     color: rgb(230, 230, 230);
-    
-    font-weight: bold;
+    text-align: left;
 }
 
-nav > ul > li > a {
+.in-page-nav > ul > li > a {
     text-decoration: underline;
-}
-
-
-li.active a {
-    color:#E3A55E;
-}
-
-li.a:hover {
-    background-color: #E3A55E;
+    font-size: 1.3em;
 }
 
 /* PAGE BODY / CONTENT STYLES */
@@ -47,6 +27,10 @@ body {
     width: 1080px;
     margin-left: auto;
     margin-right: auto;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Lato", sans-serif;
 }
 
 h1 {
@@ -73,11 +57,11 @@ p {
 }
 
 ul > li {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 ol > li {
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 li > h4 {
@@ -95,3 +79,15 @@ figcaption {
 li > a {
     color: #E3A55E;
 }
+
+aside {
+    width: 40%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+    border-radius: .5em;
+    font-size: .9em;
+
+
+    background-color: #E3A55E;
+  }

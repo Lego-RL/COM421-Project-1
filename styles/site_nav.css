@@ -1,0 +1,35 @@
+.site_nav > ul > li.active > a {
+    color:#E3A55E;
+}
+
+.site_nav {
+    text-align: center;
+    
+}
+
+.site_nav > ul > li > a {
+    color: white;
+    text-decoration: none;
+    padding: .5em 1em;
+}
+
+
+.site_nav ul {
+    list-style: none;
+    padding-left: 0px;
+    background-color:rgb(106, 106, 106);
+    padding: 10px 0px 10px 0px;
+    border-radius: 16px;
+}
+
+.site_nav ul li {
+    display: inline;
+}
+
+
+
+
+
+li.a:hover {
+    background-color: #E3A55E;
+}
